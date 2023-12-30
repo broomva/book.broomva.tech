@@ -39,12 +39,12 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // editUrl: 'https://github.com/Broomva/book.broomva.tech/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   // editUrl: 'https://github.com/Broomva/book.broomva.tech/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        blog: {
+          showReadingTime: true,
+          blogTitle: 'Broomva\'s blog!',
+          blogDescription: 'A Docusaurus powered blog!',
+          postsPerPage: 'ALL',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -71,7 +71,7 @@ const config: Config = {
           position: 'left',
           label: 'Book',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Broomva/book.broomva.tech',
           label: 'GitHub',
@@ -111,10 +111,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
             {
               label: 'Book \'s Github',
               href: 'https://github.com/Broomva/book.broomva.tech',
