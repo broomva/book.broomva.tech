@@ -1,4 +1,3 @@
-
 ---
 slug: ver_lo_bueno_en_lo_malo
 title: Ver Lo Bueno En Lo Malo
@@ -6,7 +5,6 @@ authors: broomva
 tags: [tech_scribbles, broomva]
 date: 2020-12-30
 ---
-
 # ¿Ver lo bueno en lo malo?
 
 Cambiar la descripción de un sistema basado en los fallos deterministicos estimados de sus funcionalidades, ¿ Cómo definiría la forma de comparar? Definiendo a través de otros sistemas de control, variables que alteren la dinámica1 basadas en algoritmos ~~como backsteping y otros~~ de vanguardia, y desarrollen mejora para parámetros de control deseables para pre-determinado/deseado valor final de *n* variables.

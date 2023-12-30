@@ -1,4 +1,3 @@
-
 ---
 slug: for_stability_control
 title: For Stability Control
@@ -6,7 +5,6 @@ authors: broomva
 tags: [tech_scribbles, broomva]
 date: 2020-12-30
 ---
-
 # For stability, control
 
 For stability,

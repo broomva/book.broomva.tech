@@ -1,4 +1,3 @@
-
 ---
 slug: computer_vision_for_on_site_safety
 title: Computer Vision For On Site Safety
@@ -6,7 +5,6 @@ authors: broomva
 tags: [tech_scribbles, broomva]
 date: 2020-12-30
 ---
-
 # Computer Vision for On Site Safety
 
 As a Mechatronics Engineer working in the development of A.I. solutions in the Oil & Gas field, looking for optimal approaches to make processes efficient and safe, to predict assets behavior and proactively act on critical events. With the use of CV secure and controlled environments could be established provided by a holistic approach of temporal features analysis (both from the process variables as well as RGB captures of the physical asset). Even greater solutions could be developed to ensure safe and optimal process in critical environments like an Oil extraction/production facility that ultimately could be directed to mitigate the environmental impact.

@@ -15,8 +15,7 @@ for filename in os.listdir(directory):
             content = file.read()
             # Go to the beginning of the file
             file.seek(0)
-            template = f"""
----
+            template = f"""---
 slug: {os.path.splitext(filename)[0]}
 title: {str(os.path.splitext(filename)[0]).replace('_', ' ').title()}
 authors: broomva
