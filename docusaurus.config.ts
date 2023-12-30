@@ -88,8 +88,16 @@ const config: Config = {
           title: 'Book',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Index',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Online Courses Notes',
+              to: 'docs/category/online-courses-notes',
             },
           ],
         },
