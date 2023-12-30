@@ -1,3 +1,12 @@
+
+---
+slug: ips_iiot_aas_and_concerns_on_privacy
+title: Ips Iiot Aas And Concerns On Privacy
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # IPS | IIoT - aaS and concerns on privacy
 
 Created: 14 de julio de 2020

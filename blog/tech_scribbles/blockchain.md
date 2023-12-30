@@ -1,3 +1,12 @@
+
+---
+slug: blockchain
+title: Blockchain
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # BlockChain
 
 # Use block chain to develop secure and transparent data transfer or custody transfer of process data with trust and trazable usability.

@@ -1,3 +1,12 @@
+
+---
+slug: inteligencia_artificial_en_la_industria_colombiana
+title: Inteligencia Artificial En La Industria Colombiana
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # Inteligencia Artificial en la Industria Colombiana
 
 Mediante la digitalización de instrumentos y analizadores se logra capturar la dinámica de procesos industriales en series de tiempo almacenadas en bases de datos. Toda esta información es valiosa pues intrínsecamente incluye relaciones entre las variables de proceso e indicadores de producción y/o efectividad. Estos datos pueden estar registrados en frecuencias desde mili(en incluso micro)segundos hasta minutos y horas, dependiendo de la necesidad del proceso y a lo largo de días y meses el tamaño de esta información (y la cantidad de puntos en el tiempo) crece de gran forma. Esta vasta cantidad de datos hace posible que el empleo de algoritmos de aprendizaje automático, en particular, aprendizaje profundo (deep learning) sea plausible y se puedan desarrollar análisis sobre condiciones de proceso y predicciones de comportamiento como también ayudar a tomar decisiones criticas de forma mas inteligente y ágil.

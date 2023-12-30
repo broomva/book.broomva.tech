@@ -44,6 +44,8 @@ const config: Config = {
           blogTitle: 'Broomva\'s blog!',
           blogDescription: 'A Docusaurus powered blog!',
           postsPerPage: 'ALL',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',

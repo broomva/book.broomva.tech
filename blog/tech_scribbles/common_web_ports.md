@@ -1,3 +1,12 @@
+
+---
+slug: common_web_ports
+title: Common Web Ports
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # Common Web Ports
 
 | Type | Protocol | Port range | Source | Description - optional |

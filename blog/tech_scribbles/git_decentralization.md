@@ -1,3 +1,12 @@
+
+---
+slug: git_decentralization
+title: Git Decentralization
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # GIT Decentralization
 
 So just remember that Git and GitHub are not the same. Git is a version control tool, and GitHub is a collaboration tool that happens to use Git, and provides a framework for a specific type of development cycle that is very well established and familiar to many people.

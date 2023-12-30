@@ -1,3 +1,12 @@
+
+---
+slug: probability
+title: Probability
+authors: broomva
+tags: [tech_scribbles, broomva]
+date: 2020-12-30
+---
+
 # Probability
 
 **Decision making, patterns and art**
