@@ -30,15 +30,6 @@ const config: Config = {
   },
 
   plugins: ['@docusaurus/theme-live-codeblock'],
-  themeConfig: {
-    liveCodeBlock: {
-      /**
-       * The position of the live playground, above or under the editor
-       * Possible values: "top" | "bottom"
-       */
-      playgroundPosition: 'bottom',
-    },
-  },
 
   presets: [
     [
@@ -63,6 +54,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    liveCodeBlock: {
+      playgroundPosition: 'bottom',
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Broomva Book',

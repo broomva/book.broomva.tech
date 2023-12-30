@@ -1,0 +1,8 @@
+{
+  "label": "Online Courses Notes",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A brief collection of online courses content."
+  }
+}
