@@ -27,11 +27,11 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Book Index
+            Book Intro
           </Link>
         </div>
         <div className={styles.buttons}>
-          🔹
+          🪼
         </div>
         <div className={styles.buttons}>
           <Link

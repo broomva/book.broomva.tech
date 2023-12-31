@@ -5,7 +5,9 @@
 
 .heroBanner {
   padding: 9rem 0;
-  background: linear-gradient(180deg, #1d88a3 10%, #031835 95%);
+  background: linear-gradient(180deg, #78b5f2 5%, #3b99f7 95%);
+  /* background: url('../../static/img/R.gif') no-repeat center center;
+  background-size: cover; */
   text-align: center;
   position: relative;
   overflow: hidden;
