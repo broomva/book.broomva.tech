@@ -59,12 +59,12 @@ const config: Config = {
     liveCodeBlock: {
       playgroundPosition: 'bottom',
     },
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Broomva Book',
       logo: {
         alt: 'Broomva Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -126,13 +126,17 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'Broomva\'s Website',
+              to: 'https://broomva.tech',
+            },
+            {
               label: 'Book \'s Github',
               href: 'https://github.com/Broomva/book.broomva.tech',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Broomva Built with docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Broomva. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

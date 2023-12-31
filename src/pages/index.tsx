@@ -11,6 +11,14 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+      <div>
+          <img 
+            src="/img/book-broomva.png"
+            alt="Broomva"
+            width="120"
+            height="120"
+          />
+        </div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -21,15 +29,20 @@ function HomepageHeader() {
             to="/docs/intro">
             Book Index
           </Link>
-          {/* separate these two elements */}
-          <div className={styles.spacer} />
-          <p className="hero">.</p>
+        </div>
+        <div className={styles.buttons}>
+          🔹
+        </div>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg" 
             to="/blog">
             Blog
           </Link>
         </div>
+
+
+        
       </div>
     </header>
   );
@@ -39,8 +52,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Broomva's Book, a continuous effort">
       <main>
         <HomepageHeader />
         {/* <HomepageFeatures /> */}
