@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
       <div>
           <img 
-            src="/img/book-broomva.png"
+            src="/img/logo.png"
             alt="Broomva"
             width="120"
             height="120"
