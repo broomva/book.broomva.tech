@@ -1,6 +1,8 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
+import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math';
 
 const config: Config = {
   title: 'Broomva\'s Book Technology and Life',
@@ -26,7 +28,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      },
+      es: {
+        htmlLang: 'es-ES',
+      },
+    },
   },
 
   plugins: ['@docusaurus/theme-live-codeblock'],
@@ -37,6 +47,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // editUrl: 'https://github.com/Broomva/book.broomva.tech/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
@@ -59,6 +71,15 @@ const config: Config = {
     liveCodeBlock: {
       playgroundPosition: 'bottom',
     },
+    stylesheets: [
+      {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+        type: 'text/css',
+        integrity:
+          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+        crossorigin: 'anonymous',
+      },
+    ],
     // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Broomva Book',
@@ -78,6 +99,10 @@ const config: Config = {
           href: 'https://github.com/Broomva/book.broomva.tech',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'left',
         },
       ],
     },

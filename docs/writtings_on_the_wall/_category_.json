@@ -1,0 +1,8 @@
+{
+  "label": "Writtings on the Wall",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Una coleccion de escritos en varios contextos"
+  }
+}

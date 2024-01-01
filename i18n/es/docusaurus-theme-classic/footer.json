@@ -1,0 +1,54 @@
+{
+  "link.title.Book": {
+    "message": "Libro",
+    "description": "El título de la columna de enlaces del pie de página con título=Libro en el pie de página"
+  },
+  "link.title.Community": {
+    "message": "Comunidad",
+    "description": "El título de la columna de enlaces del pie de página con título=Comunidad en el pie de página"
+  },
+  "link.title.More": {
+    "message": "Más",
+    "description": "El título de la columna de enlaces del pie de página con título=Más en el pie de página"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introducción",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Introducción que enlaza a /docs/intro"
+  },
+  "link.item.label.Index": {
+    "message": "Índice",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Índice que enlaza a /docs/intro"
+  },
+  "link.item.label.Online Courses Notes": {
+    "message": "Notas de Cursos en Línea",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Notas de Cursos en Línea que enlaza a docs/category/online-courses-notes"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Github que enlaza a https://github.com/Broomva/"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Linkedin que enlaza a https://www.linkedin.com/in/broomva/"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Twitter que enlaza a https://twitter.com/CarlosEscobar__"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Blog que enlaza a /blog"
+  },
+  "link.item.label.Broomva's Website": {
+    "message": "Sitio Web de Broomva",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Sitio Web de Broomva que enlaza a https://broomva.tech"
+  },
+  "link.item.label.Book 's Github": {
+    "message": "Github del Libro",
+    "description": "La etiqueta del enlace del pie de página con etiqueta=Github del Libro que enlaza a https://github.com/Broomva/book.broomva.tech"
+  },
+  "copyright": {
+    "message": "Derechos de autor © 2024 Broomva. Construido con Docusaurus.",
+    "description": "El copyright del pie de página"
+  }
+}

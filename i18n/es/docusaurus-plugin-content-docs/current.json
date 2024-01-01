@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "La etiqueta para la versión actual"
+  },
+  "sidebar.tutorialSidebar.category.Online Courses Notes": {
+    "message": "Notas de Cursos en Línea",
+    "description": "La etiqueta para la categoría Notas de Cursos en Línea en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Online Courses Notes.link.generated-index.description": {
+    "message": "Una breve colección de contenido de cursos en línea.",
+    "description": "La descripción de la página generated-index para la categoría Notas de Cursos en Línea en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Azure Data Scientist Associate": {
+    "message": "Asociado en Ciencia de Datos de Azure",
+    "description": "La etiqueta para la categoría Asociado en Ciencia de Datos de Azure en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Azure Data Scientist Associate.link.generated-index.description": {
+    "message": "Una breve colección de contenido de cursos en línea.",
+    "description": "La descripción de la página generated-index para la categoría Asociado en Ciencia de Datos de Azure en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Analysis with Python": {
+    "message": "Análisis de Datos con Python",
+    "description": "La etiqueta para la categoría Análisis de Datos con Python en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Analysis with Python.link.generated-index.description": {
+    "message": "Una breve colección de pensamientos e ideas técnicas aleatorias.",
+    "description": "La descripción de la página generated-index para la categoría Análisis de Datos con Python en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Google Cloud Platform Big Data and Machine Learning": {
+    "message": "Google Cloud Platform Big Data y Machine Learning",
+    "description": "La etiqueta para la categoría Google Cloud Platform Big Data y Machine Learning en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Google Cloud Platform Big Data and Machine Learning.link.generated-index.description": {
+    "message": "Notas sobre Google Cloud Platform Big Data y Machine Learning",
+    "description": "La descripción de la página generated-index para la categoría Google Cloud Platform Big Data y Machine Learning en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How to Win a Data Science Competition: Learn from Top Kagglers": {
+    "message": "Cómo Ganar una Competencia de Ciencia de Datos: Aprende de los Mejores Kagglers",
+    "description": "La etiqueta para la categoría Cómo Ganar una Competencia de Ciencia de Datos: Aprende de los Mejores Kagglers en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How to Win a Data Science Competition: Learn from Top Kagglers.link.generated-index.description": {
+    "message": "Cómo Ganar una Competencia de Ciencia de Datos: Aprende de los Mejores Kagglers",
+    "description": "La descripción de la página generated-index para la categoría Cómo Ganar una Competencia de Ciencia de Datos: Aprende de los Mejores Kagglers en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Writtings on the Wall": {
+    "message": "Escritos en la Pared",
+    "description": "La etiqueta para la categoría Escritos en la Pared en sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Writtings on the Wall.link.generated-index.description": {
+    "message": "Una colección de escritos en varios contextos",
+    "description": "La descripción de la página generated-index para la categoría Escritos en la Pared en sidebar tutorialSidebar"
+  }
+}

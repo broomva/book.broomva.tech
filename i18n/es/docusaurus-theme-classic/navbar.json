@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Libro de Broomva",
+    "description": "El título en la barra de navegación"
+  },
+  "logo.alt": {
+    "message": "Logo de Broomva",
+    "description": "El texto alternativo del logo en la barra de navegación"
+  },
+  "item.label.Book": {
+    "message": "Libro",
+    "description": "Elemento de la barra de navegación con la etiqueta Libro"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Elemento de la barra de navegación con la etiqueta Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Elemento de la barra de navegación con la etiqueta GitHub"
+  }
+}

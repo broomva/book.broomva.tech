@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "¡El blog de Broomva!",
+    "description": "El título del blog utilizado en SEO"
+  },
+  "description": {
+    "message": "¡Un blog impulsado por Docusaurus!",
+    "description": "La descripción del blog utilizada en SEO"
+  },
+  "sidebar.title": {
+    "message": "Todas las publicaciones",
+    "description": "La etiqueta para la barra lateral izquierda"
+  }
+}
