@@ -14,7 +14,11 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "**/*.pdf",
+    "**/*.webarchive",
+    
+
   ],
   "exclude": [
     "node_modules"
