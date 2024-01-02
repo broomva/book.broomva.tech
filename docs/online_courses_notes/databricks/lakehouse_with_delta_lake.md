@@ -1,5 +1,13 @@
+---
+sidebar_label: 'Lakehouse with Delta Lake'
+sidebar_position: 1
+---
+
 # Lakehouse with Delta Lake
 
+[Fundamentals of the Databricks Lakehouse Platform - Overview.webarchive](lakehouse_with_delta_lake/fundamentals_of_the_databricks_lakehouse_platform__overview.webarchive)
+
+[Scalable Machine Learning with Apache Spark - Overview.webarchive](lakehouse_with_delta_lake/scalable_machine_learning_with_apache_spark__overview.webarchive)
 
 [Lakehouse with Delta Lake Deep Dive - How Delta Lake Enables a Lakehouse.webarchive](lakehouse_with_delta_lake/lakehouse_with_delta_lake_deep_dive__how_delta_lake_enables_a_lakehouse.webarchive)
 
