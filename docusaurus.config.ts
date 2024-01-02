@@ -79,6 +79,16 @@ const config: Config = {
     liveCodeBlock: {
       playgroundPosition: 'bottom',
     },
+    docs: {
+      sidebar: {
+        hideable: false,
+        // autoCollapseCategories: false,
+      },
+    },
+  tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 6,
+    },
     stylesheets: [
       {
         href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
