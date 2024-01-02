@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "d1dc465719d8a34a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f77e14625a906aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ba4cbebfeb5d055",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7399773f409367f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a712cf966af0f93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10ad5520900a9cc3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "427be9c2b113f366",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "debc2997407f77e9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d488089e6033cb44",
+    "type": "split",
+    "children": [
+      {
+        "id": "d632b1f38d6f8a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "331f589b34b6fdfc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "writtings_on_the_wall/cuenta_regresiva.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "16e188290cf61aea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "writtings_on_the_wall/cuenta_regresiva.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2d40fc4e9eb6834",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "384e3eb3d6d43a2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "writtings_on_the_wall/cuenta_regresiva.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "10ad5520900a9cc3",
+  "lastOpenFiles": [
+    "writtings_on_the_wall/consumo.md",
+    "online_courses_notes/azure_data_scientist_associate/train_and_evaluate_classification_models.md"
+  ]
+}

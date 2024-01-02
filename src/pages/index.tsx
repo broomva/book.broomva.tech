@@ -3,6 +3,12 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
+import Particles from "../components/particles";
+
+const navigation = [
+  { name: "Let's speak 🚀", href: "/contact" },
+];
+
 
 import styles from './index.module.css';
 
@@ -23,6 +29,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <Particles quantity={1220}/>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -40,8 +47,6 @@ function HomepageHeader() {
             Blog
           </Link>
         </div>
-
-
         
       </div>
     </header>

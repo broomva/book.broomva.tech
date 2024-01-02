@@ -39,7 +39,15 @@ const config: Config = {
     },
   },
 
-  plugins: ['@docusaurus/theme-live-codeblock'],
+  plugins: [
+    '@docusaurus/theme-live-codeblock',
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options here
+      },
+    ],
+  ],
 
   presets: [
     [
