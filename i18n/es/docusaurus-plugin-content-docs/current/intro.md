@@ -1,24 +1,24 @@
 ---
-sidebar_label: 'Introducción' 
-sidebar_position: 1
+sidebar_label: 'Introduction'
+sidebar_position: 2
 ---
+<!-- might need renaming -->
+# Introduction
 
-# Introducción
+Welcome to my digital space, a unique blend of technical depth and life's intricacies. Here, I explore the realms of AI, data science, systems engineering, and mechatronics, alongside reflections on literature, gaming, and the nuances of love.
 
-Bienvenido a mi espacio digital, una combinación única de profundidad técnica y las complejidades de la vida. Aquí, exploro los reinos de la IA, ciencia de datos, ingeniería de sistemas y mecatrónica, junto con reflexiones sobre literatura, juegos y las sutilezas del amor.
+## Diverse Perspectives
 
-## Perspectivas Diversas
+This collection is a mosaic of ideas. It includes technical guides like "Intro to Reinforcement Learning with Python", detailed explorations such as "Big Data: adquisición y almacenamiento de datos", and personal insights into the world of quantum computing. Each piece serves as a bridge connecting the logical with the emotional, the technical with the poetic.
 
-Esta colección es un mosaico de ideas. Incluye guías técnicas como "Introducción al Aprendizaje por Refuerzo con Python", exploraciones detalladas como "Big Data: adquisición y almacenamiento de datos", y percepciones personales sobre el mundo de la computación cuántica. Cada pieza sirve como un puente que conecta lo lógico con lo emocional, lo técnico con lo poético.
+## A Personal Compilation
 
-## Una Compilación Personal
+This book is primarily a one-way stream of my thoughts and findings. It's a living document, continuously evolving from a mix of digital notes and handwritten pages into a structured and accessible format.
 
-Este libro es principalmente un flujo unidireccional de mis pensamientos y hallazgos. Es un documento vivo, que evoluciona continuamente de una mezcla de notas digitales y páginas escritas a mano a un formato estructurado y accesible.
+## What You'll Find
 
-## Lo Que Encontrarás
+Expect a confluence of technical clarity and thoughtful prose. You'll encounter detailed explanations of complex concepts alongside personal anecdotes and reflections, all aiming to enrich understanding and spark curiosity.
 
-Espera una confluencia de claridad técnica y prosa reflexiva. Te encontrarás con explicaciones detalladas de conceptos complejos junto con anécdotas personales y reflexiones, todo con el objetivo de enriquecer la comprensión y despertar la curiosidad.
+## Looking Ahead
 
-## Mirando Hacia Adelante
-
-En el futuro, herramientas como Obsidian podrían usarse para profundizar estas conexiones, tejiendo una red más rica de ideas. Por ahora, el enfoque está en establecer una base clara y atractiva.
+In the future, tools like Obsidian may be used to deepen these connections, weaving a richer network of ideas. For now, the focus is on establishing a clear and engaging foundation.

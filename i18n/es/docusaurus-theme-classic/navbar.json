@@ -1,22 +1,22 @@
 {
   "title": {
     "message": "Libro de Broomva",
-    "description": "El título en la barra de navegación"
+    "description": "The title in the navbar"
   },
   "logo.alt": {
     "message": "Logo de Broomva",
-    "description": "El texto alternativo del logo en la barra de navegación"
+    "description": "The alt text of navbar logo"
   },
   "item.label.Book": {
     "message": "Libro",
-    "description": "Elemento de la barra de navegación con la etiqueta Libro"
+    "description": "Navbar item with label Book"
   },
   "item.label.Blog": {
     "message": "Blog",
-    "description": "Elemento de la barra de navegación con la etiqueta Blog"
+    "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
     "message": "GitHub",
-    "description": "Elemento de la barra de navegación con la etiqueta GitHub"
+    "description": "Navbar item with label GitHub"
   }
 }

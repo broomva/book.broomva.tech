@@ -1,7 +1,7 @@
 {
   "version.label": {
     "message": "Siguiente",
-    "description": "La etiqueta para la versión actual"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Online Courses Notes": {
     "message": "Notas de Cursos en Línea",
@@ -50,5 +50,85 @@
   "sidebar.tutorialSidebar.category.Writtings on the Wall.link.generated-index.description": {
     "message": "Una colección de escritos en varios contextos",
     "description": "La descripción de la página generated-index para la categoría Escritos en la Pared en sidebar tutorialSidebar"
+  },
+  "sidebar.Sidebar.category.Online Courses Notes": {
+    "message": "Online Courses Notes",
+    "description": "The label for category Online Courses Notes in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Online Courses Notes.link.generated-index.description": {
+    "message": "A brief collection of online courses content.",
+    "description": "The generated-index page description for category Online Courses Notes in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Azure Data Scientist Associate": {
+    "message": "Azure Data Scientist Associate",
+    "description": "The label for category Azure Data Scientist Associate in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Azure Data Scientist Associate.link.generated-index.description": {
+    "message": "A brief collection of online courses content.",
+    "description": "The generated-index page description for category Azure Data Scientist Associate in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Data Analysis with Python": {
+    "message": "Data Analysis with Python",
+    "description": "The label for category Data Analysis with Python in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Data Analysis with Python.link.generated-index.description": {
+    "message": "A brief collection of random tech thoughts and ideas.",
+    "description": "The generated-index page description for category Data Analysis with Python in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Databricks Academy": {
+    "message": "Databricks Academy",
+    "description": "The label for category Databricks Academy in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Databricks Academy.link.generated-index.description": {
+    "message": "A brief collection of some databricks courses",
+    "description": "The generated-index page description for category Databricks Academy in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Google Cloud Platform Big Data and Machine Learning": {
+    "message": "Google Cloud Platform Big Data and Machine Learning",
+    "description": "The label for category Google Cloud Platform Big Data and Machine Learning in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Google Cloud Platform Big Data and Machine Learning.link.generated-index.description": {
+    "message": "Notes on Google Cloud Platform Big Data and Machine Learning",
+    "description": "The generated-index page description for category Google Cloud Platform Big Data and Machine Learning in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.How to Win a Data Science Competition: Learn from Top Kagglers": {
+    "message": "How to Win a Data Science Competition: Learn from Top Kagglers",
+    "description": "The label for category How to Win a Data Science Competition: Learn from Top Kagglers in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.How to Win a Data Science Competition: Learn from Top Kagglers.link.generated-index.description": {
+    "message": "How to Win a Data Science Competition: Learn from Top Kagglers",
+    "description": "The generated-index page description for category How to Win a Data Science Competition: Learn from Top Kagglers in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Machine Learning in Production (MLOps) Specialization": {
+    "message": "Machine Learning in Production (MLOps) Specialization",
+    "description": "The label for category Machine Learning in Production (MLOps) Specialization in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Machine Learning in Production (MLOps) Specialization.link.generated-index.description": {
+    "message": "This are the course notes for Machine Learning in Production (MLOps) Specialization",
+    "description": "The generated-index page description for category Machine Learning in Production (MLOps) Specialization in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Machine Learning with Big Data": {
+    "message": "Machine Learning with Big Data",
+    "description": "The label for category Machine Learning with Big Data in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Machine Learning with Big Data.link.generated-index.description": {
+    "message": "Machine Learning with Big Data",
+    "description": "The generated-index page description for category Machine Learning with Big Data in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Tech Docs": {
+    "message": "Tech Docs",
+    "description": "The label for category Tech Docs in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Tech Docs.link.generated-index.description": {
+    "message": "A collection of online documentation for various resources.",
+    "description": "The generated-index page description for category Tech Docs in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Writtings on the Wall": {
+    "message": "Writtings on the Wall",
+    "description": "The label for category Writtings on the Wall in sidebar Sidebar"
+  },
+  "sidebar.Sidebar.category.Writtings on the Wall.link.generated-index.description": {
+    "message": "Una coleccion de escritos en varios contextos",
+    "description": "The generated-index page description for category Writtings on the Wall in sidebar Sidebar"
   }
 }

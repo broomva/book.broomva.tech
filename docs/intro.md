@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Introduction'
-sidebar_position: 1
+sidebar_position: 2
 ---
 <!-- might need renaming -->
 # Introduction

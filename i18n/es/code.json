@@ -293,5 +293,25 @@
   "theme.unlistedContent.message": {
     "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
     "description": "The unlisted content banner message"
+  },
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "Buscar...",
+    "description": "Placeholder shown in the searchbar"
+  },
+  "cmfcmf/d-s-l.searchBar.clearButtonTitle": {
+    "message": "Borrar",
+    "description": "Title of the button to clear the current search input"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "Cancelar",
+    "description": "Text of the button to close the detached search window"
+  },
+  "cmfcmf/d-s-l.searchBar.submitButtonTitle": {
+    "message": "Enviar",
+    "description": "Title of the button to submit a new search"
+  },
+  "cmfcmf/d-s-l.searchBar.noResults": {
+    "message": "No se han encontrado resultados.",
+    "description": "message shown if no results are found"
   }
 }

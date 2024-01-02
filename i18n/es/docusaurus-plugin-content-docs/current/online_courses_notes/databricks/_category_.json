@@ -1,0 +1,8 @@
+{
+  "label": "Databricks Academy",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A brief collection of some databricks courses"
+  }
+}

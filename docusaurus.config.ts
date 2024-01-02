@@ -121,12 +121,8 @@ const config: Config = {
           title: 'Book',
           items: [
             {
-              label: 'Introduction',
-              to: '/docs/intro',
-            },
-            {
               label: 'Index',
-              to: '/docs/intro',
+              to: '/docs/',
             },
             {
               label: 'Online Courses Notes',
