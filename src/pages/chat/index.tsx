@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
                         src="https://broomva-book-broomva-chat.hf.space"
                         title="Book Broomva Chat"
                         width="100%"
-                        height={800}
+                        height={600}
                         allowFullScreen={true}
                     ></iframe>
                 {/* </div> */}
