@@ -11,8 +11,12 @@
             "id": "0ba4cbebfeb5d055",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "writtings_on_the_wall/bestiario.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writtings_on_the_wall/cuenta_regresiva.md",
+                "file": "writtings_on_the_wall/bestiario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writtings_on_the_wall/cuenta_regresiva.md",
+                "file": "writtings_on_the_wall/bestiario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writtings_on_the_wall/cuenta_regresiva.md"
+                "file": "writtings_on_the_wall/bestiario.md"
               }
             }
           }
@@ -142,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10ad5520900a9cc3",
+  "active": "0ba4cbebfeb5d055",
   "lastOpenFiles": [
+    "online_courses_notes/how_to_win_a_data_science_competition_learn_from_t/week_4.md",
     "writtings_on_the_wall/consumo.md",
     "online_courses_notes/azure_data_scientist_associate/train_and_evaluate_classification_models.md"
   ]

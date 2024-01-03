@@ -1,37 +1,37 @@
-name: Generate and Upload PDF
+# name: Generate and Upload PDF
 
-on:
-  push:
-    branches:
-      - main  # Trigger the workflow on pushes to the main branch
+# on:
+#   push:
+#     branches:
+#       - main  # Trigger the workflow on pushes to the main branch
 
-jobs:
-  build:
-    runs-on: ubuntu-latest  # Use the latest version of Ubuntu as the runner
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest  # Use the latest version of Ubuntu as the runner
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2  # Check out the repository
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2  # Check out the repository
 
-      - name: Install Prince
-        run: |
-          # Download Prince
-          curl https://www.princexml.com/download/prince-14.2-linux-generic-x86_64.tar.gz -O
-          tar zxf prince-14.2-linux-generic-x86_64.tar.gz
-          cd prince-14.2-linux-generic-x86_64
-          yes "" | sudo ./install.sh
+#       - name: Install Prince
+#         run: |
+#           # Download Prince
+#           curl https://www.princexml.com/download/prince-14.2-linux-generic-x86_64.tar.gz -O
+#           tar zxf prince-14.2-linux-generic-x86_64.tar.gz
+#           cd prince-14.2-linux-generic-x86_64
+#           yes "" | sudo ./install.sh
 
-      - name: Build PDF
-        run: |
-          # Install required npm packages globally
-          npm install -g docusaurus
-          npm install -g docusaurus-prince-pdf
+#       - name: Build PDF
+#         run: |
+#           # Install required npm packages globally
+#           npm install -g docusaurus
+#           npm install -g docusaurus-prince-pdf
 
-          # Build the PDF with the new URL
-          npx docusaurus-prince-pdf -u https://book.broomva.tech/
+#           # Build the PDF with the new URL
+#           npx docusaurus-prince-pdf -u https://book.broomva.tech/
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v2
-        with:
-          name: pdf  # The name of the artifact
-          path: pdf/book.broomva.tech.pdf  # The path to the PDF file with the updated URL
+#       - name: Upload PDF
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: pdf  # The name of the artifact
+#           path: pdf/book.broomva.tech.pdf  # The path to the PDF file with the updated URL
