@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
             <main>
                 {/* <div className={styles.responsive-iframe}> */}
                     <iframe
-                        src="https://broomva-book-broomva-chat.hf.space"
+                        src="https://chat.broomva.tech/"
                         title="Book Broomva Chat"
                         width="100%"
                         height={800}

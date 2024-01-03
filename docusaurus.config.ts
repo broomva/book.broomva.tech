@@ -113,7 +113,12 @@ const config: Config = {
           label: 'Book',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/chat', label: 'Chat', position: 'left'},
+        {
+          href: 'https://chat.broomva.tech',
+          label: 'Chat',
+          position: 'left',
+        },
+        // {to: '/chat', label: 'Chat', position: 'left'},
         {
           href: 'https://github.com/Broomva/book.broomva.tech',
           label: 'GitHub',
