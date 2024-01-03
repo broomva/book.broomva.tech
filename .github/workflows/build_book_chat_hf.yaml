@@ -4,12 +4,10 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "chat/**"
 
 env:
-  USER_NAME: "Your Name"  # Replace with your name
-  HF_SPACE: "your-space-name"  # Replace with your Hugging Face space name
+  USER_NAME: "Carlos Escobar"  # Replace with your name
+  HF_SPACE: "Broomva/book-broomva-chat"  # Replace with your Hugging Face space name
 
 jobs:
   deploy:
