@@ -5,8 +5,21 @@ sidebar_position: 1
 
 # Index
 
+:::tip
+
 ## Chat
-Check out the Broomva's Book Chat Agent. A Q&A RAG enhanced LLM agent that can answer questions about this book. [Chat with Broomva](https://book.broomva.com/chat)
+Check out the Broomva's Book Chat Agent. 
+A Q&A RAG enhanced LLM agent that can answer questions about this book! 
+
+### [Chat with Broomva](https://book.broomva.tech/chat)
+
+To login as a guest, use the following credentials:
+
+- **Username:** guest
+- **Password:** guest
+
+:::
+
 
 - ## Online Courses Notes
 
