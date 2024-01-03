@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1f77e14625a906aa",
+        "id": "0c46a3d58ad88f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba4cbebfeb5d055",
+            "id": "1b7365eeea8a7d1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "writtings_on_the_wall/bestiario.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,14 +81,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "writtings_on_the_wall/bestiario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "writtings_on_the_wall/bestiario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +118,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "writtings_on_the_wall/bestiario.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,10 +137,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ba4cbebfeb5d055",
-  "lastOpenFiles": [
-    "online_courses_notes/how_to_win_a_data_science_competition_learn_from_t/week_4.md",
-    "writtings_on_the_wall/consumo.md",
-    "online_courses_notes/azure_data_scientist_associate/train_and_evaluate_classification_models.md"
-  ]
+  "active": "1b7365eeea8a7d1a",
+  "lastOpenFiles": []
 }
