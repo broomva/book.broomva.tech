@@ -20,7 +20,6 @@ To login as a guest, use the following credentials:
 
 :::
 
-
 - ## Online Courses Notes
 
   - #### [Intro to Reinforcement Learning with Python](./online_courses_notes/intro_to_reinforcement_learning_with_python.md)
