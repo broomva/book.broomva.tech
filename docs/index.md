@@ -5,6 +5,9 @@ sidebar_position: 1
 
 # Index
 
+## Chat
+Check out the Broomva's Book Chat Agent. A Q&A RAG enhanced LLM agent that can answer questions about this book. [Chat with Broomva](https://book.broomva.com/chat)
+
 - ## Online Courses Notes
 
   - #### [Intro to Reinforcement Learning with Python](./online_courses_notes/intro_to_reinforcement_learning_with_python.md)
