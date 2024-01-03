@@ -1,121 +1,107 @@
-# Cumplimiento de Estándares De Ciberseguridad
+# Compliance with Cybersecurity Standards
 
+## CONTENTS
+1. OBJECTIVE
+2. SCOPE
+3. RESPONSIBILITIES
+4. REFERENCES
+5. GLOSSARY
+6. THREAT ANALYSIS
+7. SECURITY ZONES
+8. CYBERSECURITY AUDIT
+9. FINAL CONSIDERATIONS
 
-## CONTENIDO
-1. OBJETIVO
-2. ALCANCE 
-3. RESPONSABILIDADES
-4. REFERENCIAS
-5. GLOSARIO
-6. ANÁLISIS DE AMENAZA
-7. ZONAS DE SEGURIDAD
-8. AUDITORIA DE CIBERSEGURIDAD
-9. CONSIDERACIONES FINALES8
+## 1. OBJECTIVE
+Establish criteria, operational requirements, and documentation for the development of cybersecurity analysis, definition of zones and conduits, and equipment used to comply with the minimum requirements set by standards for data protection, personnel, and digital assets for IACS with IEC-62443 in different management systems.
 
-### 1. OBJETIVO
-Establecer los criterios, requisitos operacionales y documentales para el desarrollo de análisis de ciberseguridad, definición de zonas y conductos, y equipos usados para estar en cumplimiento con los requisitos mínimos establecidos por las normas y estándares para protección de datos, personal y activos digitales para IACS con IEC-62443 en los diferentes sistemas de gestión establecidos por la empresa.
+## 2. SCOPE
+This procedure applies to the Operations Management process in compliance with legal standards and the needs of the organization. It applies to all activities involving workplaces where digitalization, IIoT, network management, industrial communication systems, telemetry, cloud computing, automation, control, real-time monitoring, and reporting are executed.
 
-### 2. ALCANCE
-Este procedimiento aplica al proceso de Gestión de Operaciones en cumplimiento a las normas legales y a las necesidades de la empresa, es aplicable a todas las actividades que comprenden los centros de trabajo donde se ejecuten operaciones de digitalización, IIoT, manejo de redes y sistemas de comunicación industrial, telemetría, computación en la nube, automatización y control, monitoreo y reporte en tiempo real.
+## 3. RESPONSIBILITIES
+3.1. The Director of Operations is responsible for implementing, executing, and ensuring that the procedure is carried out as indicated.
+3.2. Workers are responsible for following the instructions in this procedure to facilitate and manage the processes established by the organization.
 
-### 3. RESPONSABILIDADES
-3.1. Es responsabilidad del Director de Operaciones, implementar, ejecutar y controlar que el procedimiento se esté llevando a cabo como se indica.
-3.2. Los Trabajadores serán responsables de seguir las indicaciones dispuestas en el presente procedimiento para así dar celeridad y manejo a los procesos establecidos en la empresa.
+## 4. REFERENCES
+Technical guide on compliance and execution of risk analysis, definition of zones, and defense in depth, IEC-62443.
 
-### 4. REFERENCIAS
-Guía técnica sobre cumplimiento y ejecución de análisis de riesgos, definición de zonas y defensa en profundidad, IEC-62443.
+## 5. GLOSSARY
+5.1. PRODUCT PROVIDER
+Responsible for the development and testing of the control system, including applications (antivirus, whitelist), embedded devices (PLCs, DCS, etc.), network devices (firewalls, routers, switches, etc.), and host devices (operator stations, engineering stations), working together as systems or subsystems, as defined in IEC-62443 3-3, 4-1, 4-2.
 
-### 5. GLOSARIO
+5.2. SYSTEM INTEGRATOR
+Performs the integration and commissioning of products into an automation solution using a process in accordance with the IEC-62443 2-4, 3-2, 3-3 standard.
 
-#### 5.1. PROOVEDOR DE PRODUCTO
+5.3. ASSET OWNER
+Performs operational and maintenance tasks with the help of policies and procedures described in IEC-62443 2-1, 2-3, 2-4.
 
-Se encarga de el desarrollo y las pruebas del sistema de control, comprendido por la aplicación (antivirus, lista blanca), dispositivos embebidos (PLCs, DCS, etc), dispositivos de red (firewalls, router, switches, etc) y dispositivos de host (estaciones de operador, estaciones de ingeniería), trabajando unidos como sistemas o subsistemas, como es definido en IEC-62443 3-3, 4-1, 4-2.
+5.4. SECURITY ZONE
+Security zones are groups of physical or logical assets that share security requirements and isolate critical components such as real-time control systems. Demilitarized zones (DMZ) are a special type of security zone that separates the external network (IT) from the internal network (IACS) with the help of components such as firewalls.
 
-#### 5.2. INTEGRADOR DE SISTEMAS
-Realiza la integración y comisionamiento de productos en una solución de automatización usando un proceso de acuerdo con la norma IEC-62443 2-4, 3-2, 3-3.
+5.5. DEFENSE IN DEPTH
+It is a layered security mechanism that has the benefit that, in case of an attack, if one of the layers is compromised, the other layers can continue to resist, helping to protect, detect, and respond to various attacks. An attack is understood as an attempt to violate the policies and strategies defined to block unauthorized access to digital systems. The layers are defined as follows:
+1. Data: The innermost layer, used for ACL (Access Control List) and data encryption.
+2. Application: Used to install software such as antivirus and application hardening.
+3. Host: Used for patch implementation on detected vulnerabilities and user authorization.
+4. Internal Network: Used for IPSec, packet authentication and encryption, IDS (Intrusion Detection System) for authorized or unauthorized users.
+5. Perimeter: Used to implement Firewalls and VPN (Virtual Private Network).
+6. Physical: Used for physical interconnection between networks and equipment, including switches, locks, and physical access to network hardware.
+7. Policies and Procedures: Used to define and implement security policies and procedures in IACS networks.
+Within these layers, solutions are incorporated and used together to achieve defense-in-depth, such as antivirus software, proxy servers, authentication and password security, biometrics, demilitarized zones (DMZ), data-centric security, encryption, firewalls (hardware or software), password hashing, intrusion detection systems (IDS), logging and auditing, multi-factor authentication, vulnerability scanners, physical security (e.g., deadbolt locks), timed access control, Internet Security Awareness Training, Virtual Private Network (VPN), sandboxing, Intrusion Protection System (IPS).
 
-#### 5.3. PROPIETARIO DEL ACTIVO
-Desempeña las labores operativas y de mantenimiento con la ayuda políticas y procedimientos descritos en IEC-62443 2-1, 2-3, 2-4.
+5.6. STRIDE
+It is a risk model that identifies six categories of digital threats, where each threat represents a violation of the desirable properties of a system, namely, authenticity, integrity, non-repudiation, confidentiality, availability, and authorization:
+- Spoofing - Impersonation
+- Tampering - Sabotage
+- Repudiation - Repudiation
+- Information disclosure – Information leakage or security breaches
+- Denial of Service – Service disruption
+- Elevation of privilege – Privilege escalation
 
-#### 5.4. ZONA DE SEGURIDAD
-Las zonas de seguridad son agrupaciones de activos físicos o lógicos, que comparten requerimientos de seguridad y que aíslan los componentes críticos como sistemas de control en tiempo real. Las zonas desmilitarizadas (DMZ) son un tipo de zona de seguridad especial que segmenta la red externa (IT) y la interna (IACS) con la ayuda de componentes como firewall.
-#### 5.5. DEFENSA EN PROFUNDIDAD
-Es un mecanismo de seguridad en capas, que tiene el beneficio para que, en el caso de estar siendo atacado, si alguna de las capas se ve afectada, las demás capas puedan seguir resistiendo, ayudando a proteger, detectar y reaccionar a diversos ataques. Entiéndase ataque como un intento por violar las políticas y estrategias definidas para bloquear el acceso no autorizado a sistemas digitales. Las capas se definen así:
-- Datos: La capa mas interna, usada para ACL (Lista de control de acceso) y encriptación de datos.
-- Aplicación: Usada para instalar software como antivirus y endurecimiento de aplicaciones.
-- Huésped: Usada para implementación de parches sobre vulnerabilidades detectadas y autorización de usuarios.
-- Red Interna: Usada para IPSec, autenticación y encriptación de paquetes, IDS (Sistema de Detección de Intrusión) para usuarios autorizados o no.
-- Perímetro: Usado para implementar Firewalls y VPN (Red Privada Virtual).
-- Física: Usada para interconexión física entre redes y equipos, aquí residen los switches, candados y accesos físicos al hardware de red.
-- Políticas, procedimientos: Usada para definir e implementar las políticas y procedimientos de seguridad en redes IACS.
+## 6. THREAT ANALYSIS
+Established to meet the requirements outlined in IEC-62443 3-4. It is used as a measure to determine the critical path for prioritizing and deploying countermeasures to secure network architecture, based on threat information that can be found with tools and analysis of topologies and interconnections. The following structure is followed:
+- Define the system architecture and its cybersecurity context. The architecture is specified as a data flow diagram containing components and their interactions with the system environment, assets, interaction paths, and communication technologies used. Trust perimeters are defined to determine security/trust zones. The cybersecurity context specifies appropriations regarding digital security measures. Tools like Microsoft Threat Modeling Tool or Amazon Inspector facilitate the understanding and analysis that can be done on network topologies.
+- Threats are identified using the STRIDE method and are analyzed. For each threat, the risk of exploitation if countermeasures are not taken is determined. The result of this is a list of threats associated with unmitigated risk.
+- Countermeasures mitigating the identified threats in the previous step are defined.
+- Determine the risk of each threat that remains after applying the countermeasures (residual risk), using the same approach as in the previous step. The result of this is a list of threats associated with their residual risk.
+- Final countermeasures are designed and implemented.
+Using this methodology, an analysis of the overall structure of the system to be intervened or designed is conducted. The analysis strategies can be summarized in a diagram like this:
 
-Dentro de estas capas se incorporan soluciones y usándolas en conjunto se logra la defensa-en profundidad, así como Antivirus software, Proxy server, Authentication and password security, Biometrics, Demilitarized zones (DMZ), Data-centric security, Encryption, Firewalls (hardware or software), Hashing passwords, Intrusion detection systems (IDS), Logging and auditing, Multi-factor authentication, Vulnerability scanners, Physical security (e.g. deadbolt locks), Timed access control, Internet Security Awareness Training, Virtual private network (VPN), Sandboxing, Intrusion Protection System (IPS).
+## 7. SECURITY ZONES
+Each zone has a set of characteristics and security requirements:
+- Security policies and security levels
+- Asset inventory
+- Access and control requirements
+- Threats and vulnerabilities
+- Consequences of a security breach
+- Authorized technologies
+- Management change process
+The "System under Consideration" (SuC) is clearly defined, composed of all the infrastructure subject to analysis and may include control networks, tele-supervision, communication and security infrastructure (routers/firewalls), computers within the network, among others. It is also important to define the boundaries and access points to the System under Consideration. Once the SuC has been described in detail, including all subsystems that make it up, based on existing documentation and the status quo for existing industries and the design of additional modules, identified in certified documentation of architectures and technology references, the assessment phase is carried out, in which assets are assigned to zones and conduits. In brief, each asset present under the SuC must be grouped within a security zone, and relevant documentation is generated for each zone in a report that includes the following:
+- Name and unique identifier
+- Logical boundaries
+- Physical boundaries
+- List of all access points to the system associated with boundaries and devices
+- List of data flows at access points
+- Connected zones and conduits
+- List of associated assets and consequences determined by threat/risk analysis
+- Target security level
+- Applicable security policies
+- Assumptions of external dependencies
+Under these considerations, the criteria for separating zones and conduits are as follows:
+1. Assets from business information systems (IT) and industrial control systems (OT) should be grouped into different zones.
+2. Assets identified as Safety Systems should be grouped into separate zones.
+3. Assets or devices that connect temporarily with the SuC should be grouped into separate zones.
+4. Wireless communications should be placed in one or more separate zones, separate from wired communications.
+In addition to this, the segmentation of zones and the grouping of assets are reflected in a diagram that allows understanding the architecture and communication flows between zones based on IEC 62443-1-1.
 
-#### 5.6. STRIDE
-Es un modelo de riesgos que identifica seis categorías de amenazas digitales, cada amenaza es una violación a las propiedades deseables de un sistema, a saber, autenticidad, integridad, no-repudio, confidencialidad, disponibilidad y autorización:
-- Spoofing - Suplantación
-- Tampering - Saboteo
-- Repudiation - Repudio
-- Information disclosure – Filtrado de información o brechas de seguridad
-- Denial of Service – Bloqueo de servicio
-- Elevation of privilege – Elevación de privilegios
+## 8. CYBERSECURITY AUDIT
+To develop digitalization and IACS activities, communication infrastructure must be verified and optimized. The audit is the initial process that involves a thorough analysis of cybersecurity requirements, including the planning of a path to implement secure networks, redundancies, filters, and segmentation. Therefore, documentation analysis and on-site examination are required to cover all layers of defense in depth required to implement a competent system with IEC 62443. Qualitative results are represented in zone segmentations and security level definitions as follows:
+- The definition of security levels serves as a point of comparison and management for different zones within an organization. According to the standard, there are three types of security levels: the target security level (SL-T), which describes the desired security level for a zone; the achieved security level (SL-A), which describes the measured security level once the system design or implementation has been established; and the capacity security level (SL-C), which describes the security level that can be achieved with properly configured system components.
+Based on IEC-62443 3-3, 4-2:
+- Security Level 1: Prevent unauthorized disclosure of information caused by espionage or casual exposure.
+- Security Level 2: Prevent unauthorized disclosure of information to entities actively seeking it using simple means with few resources, generic skills, and low motivation.
+- Security Level 3: Prevent unauthorized disclosure of information to entities actively seeking it using sophisticated means with moderate resources, specific IACS skills, and moderate motivation.
+- Security Level 4: Prevent unauthorized disclosure of information to entities actively seeking it using sophisticated means with extensive resources, specific IACS skills, and high motivation.
+Based on these levels, a metric is structured to condition the development and limit the solution to the level of complexity presented. It is important to determine this metric, both internally as an executor, and also regarding the security configuration that a predetermined project may have by default. According to the evaluation and case analysis for the system, a report with improvements, changes, and alterations relevant to complying with the standard and being prepared for digital and internet operations is delivered. 
 
-### 6. ANÁLISIS DE AMENAZAS
-Constituido para cumplir los requerimientos expuestos en IEC-62443 3-4. Se usa como una medida para determinar la ruta critica para estructurar prioridades y el despliegue de contramedidas que permitan tener una arquitectura de redes segura, basado en la información de amenazas que se pueda encontrar con herramientas y análisis de las topologías e interconexiones. Se sigue una estructura así:
-- Definir la arquitectura del sistema y su contexto de ciberseguridad. La arquitectura se especifica como un diagrama de flujo de datos conteniendo los componentes y sus interacciones con el entorno del sistema, los activos, las rutas de interacción y las tecnologías de comunicación usadas. Se definen perímetros de confianza para determinar zonas de seguridad/confianza. El contexto de ciberseguridad especifica apropiaciones respecto a medidas de seguridad digital. El uso de herramientas como Microsoft Threat Modeling Tool o Amazon Inspector facilita el entendimiento y análisis que se puede hacer sobre la topología de redes.
-- Las amenazas se identifican mediante el método STRIDE y son analizadas. Para cada amenaza, se determina el riesgo de aprovechamiento si no se toman contramedidas. El resultado de esto es una lista a amenazas asociadas a riesgo sin mitigar.
-- Son definidas las contramedidas que mitigan las amenazas identificadas en el paso anterior.
-- Determinar el riesgo de cada amenaza que permanece después de aplicar las contramedidas (riesgo residual), usando el mismo acercamiento del paso. El resultado de esto es una lista de amenazas asociadas con su riesgo residual.
-- Se diseñan las contramedidas finales y se implementan.
-
-Bajo esta metodología se conduce un análisis de la estructura general del sistema a intervenir o diseñar. Las estrategias para el análisis que realizamos se pueden sintetizar en un diagrama así:
-
-### 7. ZONAS DE SEGURIDAD
-Cada zona tiene un conjunto de características y requerimientos de seguridad:
-- Políticas de seguridad y niveles de seguridad
-- Inventario de activos
-- Requerimientos de acceso y control
-- Amenazas y vulnerabilidades
-- Consecuencias de una brecha de seguridad
-- Tecnologías autorizadas
-- Proceso de cambio de administración
-
-Se define claramente el “Sistema bajo Consideración” (SuC, de sus siglas en ingles), esta compuesto por toda la infraestructura que es sujeta a análisis y puede incluir redes de control, tele-supervisión, infraestructura de comunicación y seguridad (routers/firewall), computadores dentro de la red entre otros; es importante también definir claramente los limites y puntos de acceso al sistema bajo consideración. Una vez se ha descrito detalladamente el SuC, incluyendo todos los sub-sistemas que lo componen, basado en documentación existente y status quo para industrias existentes y el diseño de modulo adicionales, identificado en documentación certificada de arquitecturas y referencias de tecnología. Con esto se procede a fase de evaluación en la cual se realiza la asignación de activos a zonas y conductos. En breve, cada activo presente bajo el SuC debe agruparse dentro de una zona de seguridad y se genera una documentación pertinente para cada zona en un reporte que incluye lo siguiente:
-1. Nombre e identificador único
-2. Limites lógicos
-3. Limites físicos
-4. Lista de todos los puntos de acceso al sistema asociado con los limites y los dispositivos
-5. Lista de flujos de datos en los puntos de acceso
-6. Zonas y conductos conectados
-7. Lista de activos asociados y consecuencias determinadas por el análisis de amenazas/riesgos
-8. Nivel de seguridad objetivo
-9. Políticas de seguridad aplicables
-10. Hipótesis de dependencias externas
-
-Bajo estas consideraciones el criterio de separación de zonas y conductos esta dado así:
-1. Los activos de los sistemas de información de negocio (IT) y sistemas de control industrial (OT) deberían ser agrupados en diferentes zonas.
-2. Los activos identificados como Sistemas Seguros (Safety) deben ser agrupados en zonas separadas.
-3. Los activos o dispositivos que se conectan temporalmente con el SuC deben agrupados en zonas separadas.
-4. Comunicaciones inalámbricas deben ubicarse en una o mas zonas, separada de las comunicaciones cableadas.
-
-Además de esto, la segmentación de zonas y el agrupamiento de activos se refleja en un diagrama que permita entender la arquitectura y los flujos de comunicación entre zonas basado en IEC 62443-1-1.
-
-### 8. AUDITORIA DE CIBERSEGURIDAD
-Para desarrollar las actividades de digitalización y IACS, la infraestructura de se comunicación debe estar verificada y optimizada. La auditoria es el proceso inicial con el que se realiza un análisis a fondo del requerimiento para ciberseguridad, e incluye el trazado de una ruta para implementar redes seguras, redundancias, filtros y segmentación. Se requiere entonces análisis de documentación y examinación en sitio con el objetivo de abarcar todas las capas de la defensa en profundidad requeridas para implementar un sistema competente con IEC 62443. Los resultados cualitativos se representan en segmentaciones de zonas y definiciones de niveles de seguridad así:
-
-La definición de niveles de seguridad sirve como punto de comparación y manejo de diferentes zonas dentro de una organización. De acuerdo al estándar hay tres tipos de niveles de seguridad, a saber, nivel de seguridad objetivo (SL-T), que describe el nivel de seguridad deseado para una zona; nivel de seguridad alcanzado (SL-A), que describe el nivel de seguridad medido una vez se ha establecido el diseño o implementación del sistema; y nivel de seguridad de capacidad (SL-C), que describe el nivel de seguridad que puede alcanzarse con los componentes de un sistema bien sean configurados correctamente.
-
-Basado en IEC-62443 3-3, 4-2:
-- Nivel de Seguridad 1: Prevenir la divulgación no autorizada de información causada por espionaje o exposición casual.
-- Nivel de Seguridad 2: Prevenir la divulgación no autorizada de información a entidades en búsqueda activa usando medios sencillos con pocos recursos, habilidad genérica y poca motivación.
-- Nivel de Seguridad 3: Prevenir la divulgación no autorizada de información a entidades en búsqueda activa usando medios sofisticados con recursos moderados, habilidades de IACS específicas y motivación moderada.
-- Nivel de Seguridad 4: Prevenir la divulgación no autorizada de información a entidades en búsqueda activa usando medios sofisticados con recursos extendidos, habilidades de IACS específicas y alta motivación.
-
-Basado en estos niveles se estructura una métrica para acondicionar el desarrollo y acotar la solución al nivel de complejidad que se presente. Es importante determinar esta métrica, a nivel interno como ejecutante, y también respecto a la configuración de seguridad que un proyecto predeterminado pueda tener por defecto.
-
-Conforme a la evaluación y a los análisis de caso para el sistema se entrega un reporte con las mejoras, cambios y alteraciones pertinentes para cumplir con el estándar y estar blindado para operaciones digitales e internet.
-
-### 9. CONSIDERACIONES FINALES
-Bajo los lineamientos de la estructura estipulada, logrando un nivel de madurez suficiente se asegura que se cumplan requerimientos en la red como segregación, balance de carga, segmentación de IT/OT, definición de zonas de seguridad, conductos, proxy y zona desmilitarizada y mediante sistemas de filtrado y re direccionamiento como switch manejados, canales de flujo definidos y enrutamiento encriptado se asegura una conexión segura entre redes y canales privados, el sistema entregado es competente con IEC 62443 y asegura la confidencialidad, control de acceso y privacidad, así como también de disponibilidad para sistemas de control industrial. Los sistemas Ruggedcom aseguran comunicación con estándares de ciberseguridad y empleando aplicaciones en módulos de computo se logran soluciones para detección y protección de intrusiones. Basado en la defensa en profundidad, el control de acceso y las políticas se definen y reportan confidencialmente. Los dispositivos usados, las definiciones de zonas y conductos y software se incluyen en un reporte de inventario. Adicional, pruebas de calidad de conexión a servicios y pentest se pueden incluir adicionales al servicio. La configuración de puertos y permisos se desarrolla conforme al diseño previo y pruebas en sitio e incluye un reporte de los resultados y la validez de la configuración establecida en la oferta relacionada con servicios de ciberseguridad.
-
-La mejora continua del servicio ofrecido se promueve de forma anual y semestral e incluye revisiones, parches, actualizaciones y propuestas de mejora. El acceso remoto por IPSEC y otras características propias de la red incluyendo defensas de red y software, sistemas de computo para servidores proxy, VPN, de malware y firewall, control de acceso, encriptación y filtro en el flujo de datos se incluyen dentro de la defensa con Ruggedcom y ROXII, además de software propietario como Secure NOK, y que se incluye en una oferta formal a partir de la revisión a profundidad con el segmento IT, la revisión física o de documentación completa para todos los sistemas de red, físicos y lógicos como software, ficheros y configuraciones. Los reportes de auditoria se ajuntan relacionando los entes regulatorios y las pruebas ejecutadas, hallazgos, planes de acción y mejora y ruta critica para evaluar procedimientos futuros.
+## 9. FINAL CONSIDERATIONS
+Under the guidelines of the stipulated structure, achieving a sufficient level of maturity ensures that network requirements such as segregation, load balancing, IT/OT segmentation, definition of security zones, conduits, proxies, demilitarized zones (DMZ), and filtering and data flow redirection using managed switches, defined flow channels, and encrypted routing ensure a secure connection between networks and private channels. The delivered system complies with IEC 62443 and ensures confidentiality, access control, and privacy, as well as availability for industrial control systems. Ruggedcom and ROXII systems ensure communication with cybersecurity standards and employ applications in computing modules to achieve intrusion detection and protection solutions. Based on defense-in-depth, access control, and policies, security zones, conduits, and software are included in an inventory report. In addition, quality tests of connection to services and pentests can be included in addition to the service. Port and permission configuration is developed in accordance with the previous design and on-site testing, including a report of the results and the validity of the established configuration in the cybersecurity services-related offer. The continuous improvement of the service offered is promoted annually and semi-annually and includes reviews, patches, updates, and improvement proposals. Remote access via IPSEC and other network features, including network defenses and software, computer systems for proxy servers, VPNs, malware, and firewalls, access control, encryption, and data flow filtering are included in the defense with Ruggedcom and ROXII, as well as proprietary software such as Secure NOK. These are included in a formal offer based on in-depth review with the IT segment, physical review or complete documentation for all network systems, both physical and logical, such as software, files, and configurations. Audit reports are attached, relating regulatory bodies and tests performed, findings, action plans, and improvements, and a critical path to evaluate future procedures is provided.
