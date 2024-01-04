@@ -81,7 +81,7 @@ const config: Config = {
     },
     docs: {
       sidebar: {
-        hideable: false,
+        hideable: true,
         // autoCollapseCategories: false,
       },
     },
