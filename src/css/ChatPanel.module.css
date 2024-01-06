@@ -41,11 +41,10 @@
 
 
 .resizeHandle {
-    width: 10px; /* Width of the handle */
+    width: 5px; /* Width of the handle */
     height: 100%;
     position: absolute;
-    background-color: red; /* Temporary background color for visibility */
-    border: 2px solid yellow;
+    background-color: grey; /* Temporary background color for visibility */
     left: 0;
     top: 0;
     cursor: ew-resize; /* The cursor indicates the element can be dragged left and right */
