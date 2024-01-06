@@ -1,0 +1,40 @@
+/* src/css/ChatPanel.module.css */
+
+.chatPanel {
+    width: 300px;
+    height: 100vh; /* Full height */
+    position: fixed;
+    right: -300px; /* Start offscreen */
+    top: 0;
+    transition: right 0.3s;
+    z-index: 1000; /* Make sure it's above other content */
+    background: white; /* Change as needed */
+    border-left: 1px solid #ddd; /* Add a border if you like */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+}
+
+.open {
+    right: 0; /* Bring onto screen */
+}
+
+.chatToggleButton {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    z-index: 1010; /* Above the chat panel */
+    background: #007bff; /* Example button color - change as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Ensure that the button text rotates back to horizontal */
+.chatToggleButton span {
+    display: block;
+    transform: rotate(90deg);
+}
