@@ -4,50 +4,57 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  // Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  link?: string; // optional link parameter
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'A book full of knowledge',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    // Svg: require('@site/static/img/knowledge.svg').default,
     description: (
       <>
         The book is a compilation of many topics I've learned over the years.
       </>
     ),
+    link: '/docs/',
   },
   {
     title: 'Chat Agent',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    // Svg: require('@site/static/img/chat_book_agent.svg').default,
     description: (
       <>
         If you have any questions, feel free to ask the chat agent. 
         It's tuned to only answer questions about the book.
       </>
     ),
+    link: '/chat/' //'https://chat.broomva.tech',
   },
-  // {
-  //   title: 'Powered by React',
-  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Blog',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Some extra time-tagged content that didn't make it into the book.
+      </>
+    ),
+    link: '/blog/',
+  },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+
+function Feature({title, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        {link ? (
+          <a href={link}>
+            <Heading as="h3">{title}</Heading>
+          </a>
+        ) : (
+          <Heading as="h3">{title}</Heading>
+        )}
         <p>{description}</p>
       </div>
     </div>

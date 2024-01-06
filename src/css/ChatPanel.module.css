@@ -1,11 +1,11 @@
 /* src/css/ChatPanel.module.css */
 
 .chatPanel {
-    width: 300px;
-    height: 100vh; /* Full height */
+    width: 520px;
+    height: 1300; /* Full height */
     position: fixed;
-    right: -300px; /* Start offscreen */
-    top: 0;
+    right: -520px; /* Start offscreen */
+    top: 9%;
     transition: right 0.3s;
     z-index: 1000; /* Make sure it's above other content */
     background: white; /* Change as needed */
@@ -19,7 +19,7 @@
 
 .chatToggleButton {
     position: fixed;
-    right: 0;
+    right: -70px;
     top: 50%;
     transform: translateY(-50%) rotate(-90deg);
     z-index: 1010; /* Above the chat panel */
@@ -35,6 +35,6 @@
 
 /* Ensure that the button text rotates back to horizontal */
 .chatToggleButton span {
-    display: block;
+    display: block; 
     transform: rotate(90deg);
 }

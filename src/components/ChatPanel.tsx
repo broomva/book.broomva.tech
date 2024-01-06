@@ -13,10 +13,16 @@ const ChatPanel: React.FC = () => {
     return (
         <div>
             <button onClick={togglePanel} className={styles.chatToggleButton}>
-                Chat
+                Chat with Broomva
             </button>
             <div id="chat-panel" className={`${styles.chatPanel} ${isOpen ? styles.open : ''}`}>
-                <iframe id="chat-iframe" src="https://chat.broomva.tech" frameBorder="0"></iframe>
+            <iframe
+                        src="https://chat.broomva.tech/"
+                        title="Book Broomva Chat"
+                        width="100%"
+                        height={800}
+                        allowFullScreen={true}
+                    ></iframe>
             </div>
         </div>
     );

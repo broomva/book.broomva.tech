@@ -1,9 +1,9 @@
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
+import Particles from '../components/particles';
 
 import styles from './index.module.css';
 
@@ -11,6 +11,9 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
+      
+      <Particles className={styles.particles} quantity={1220}/>
       <div className="container">
       <div>
           <img 
@@ -24,8 +27,8 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <Particles quantity={1220}/> */}
-        <div className={styles.buttons}>
+        
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/">
@@ -41,10 +44,11 @@ function HomepageHeader() {
             to="/blog">
             Blog
           </Link>
-        </div>
+        </div> */}
         
       </div>
     </header>
+    
   );
 }
 
