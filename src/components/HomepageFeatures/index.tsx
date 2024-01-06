@@ -11,7 +11,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'A book full of knowledge',
+    title: 'Book',
     // Svg: require('@site/static/img/knowledge.svg').default,
     description: (
       <>
